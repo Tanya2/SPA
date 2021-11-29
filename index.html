@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang=\"en\">
+<head>
+    <meta charset=\"UTF-8\">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/form.js"></script>
+    <script src="js/table.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/request.js"></script>
+    <script src="js/add.js"></script>
+    <script src="js/delete.js"></script>
+    <script src="js/logout.js"></script>
+    <script src="js/register.js"></script>
+    <script src="js/page.js"></script>
+    <script src="js/info.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/app.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+        <div class="container-fluid">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link link_internal" style="visibility: hidden;" name="info" href="/info">Показать</a>
+                </li>
+            </ul>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link link_internal" style="visibility: hidden;" name="add" href="/add">Добавить</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto  navbar-right">
+                    <li class="nav-item">
+                        <a class="nav-link link_internal"   name="register" href="/register">Зарегистрироваться</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link_internal" name="login" href="/login">Войти</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link_internal" style="visibility: hidden;" name="logout" href="/logout">Выйти</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__content">
+                <h1 class="header__title" id="title">Главная <?php echo ''; ?></h1>
+            </div>
+        </header>
+        <main class="main">
+            <div class="main__content" id="body">
+            </div>
+        </main>
+    </div>
+<!--    <svg class="bi bi-alert-triangle text-success" width="32" height="32" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">-->
+
+<!--    </svg>-->
+
+<!--    <svg width="1em" height="1em" class="bi bi-x-octagon-fill text-info" fill="currentColor" >-->
+<!--        <path fill-rule="evenodd" d="M11.46.146A.5.5 0 0 0 11.107 0H4.893a.5.5 0 0 0-.353.146L.146 4.54A.5.5 0 0 0 0 4.893v6.214a.5.5 0 0 0 .146.353l4.394 4.394a.5.5 0 0 0 .353.146h6.214a.5.5 0 0 0 .353-.146l4.394-4.394a.5.5 0 0 0 .146-.353V4.893a.5.5 0 0 0-.146-.353L11.46.146zm.394 4.708a.5.5 0 0 0-.708-.708L8 7.293 4.854 4.146a.5.5 0 1 0-.708.708L7.293 8l-3.147 3.146a.5.5 0 0 0 .708.708L8 8.707l3.146 3.147a.5.5 0 0 0 .708-.708L8.707 8l3.147-3.146z"/>-->
+<!--    </svg>-->
+    <i class="bi bi-x-octagon-fill"></i>
+</body>
+</html>
+
+
